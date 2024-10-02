@@ -7,18 +7,26 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.e-whisper.com": dockerHub,
-  "quay.e-whisper.com": "https://quay.io",
-  "gcr.e-whisper.com": "https://gcr.io",
-  "k8s-gcr.e-whisper.com": "https://k8s.gcr.io",
-  "k8s.e-whisper.com": "https://registry.k8s.io",
-  "ghcr.e-whisper.com": "https://ghcr.io",
-  "cloudsmith.e-whisper.com": "https://docker.cloudsmith.io",
-  "ecr.e-whisper.com": "https://public.ecr.aws",
-  "mcr.e-whisper.com": "https://mcr.microsoft.com",
+  //"docker.e-whisper.com": dockerHub,
+  //"quay.e-whisper.com": "https://quay.io",
+  //"gcr.e-whisper.com": "https://gcr.io",
+  //"k8s-gcr.e-whisper.com": "https://k8s.gcr.io",
+  //"k8s.e-whisper.com": "https://registry.k8s.io",
+  //"ghcr.e-whisper.com": "https://ghcr.io",
+  //"cloudsmith.e-whisper.com": "https://docker.cloudsmith.io",
+  //"ecr.e-whisper.com": "https://public.ecr.aws",
+  //"mcr.e-whisper.com": "https://mcr.microsoft.com",
+
+  "dockerproxy.zhangyongyao.com": dockerHub,
+  "quayproxy.zhangyongyao.com": "https://quay.io",
+  "gcrproxy.zhangyongyao.com": "https://gcr.io",
+  "k8s-gcrproxy.zhangyongyao.com": "https://k8s.gcr.io",
+  "k8sproxy.zhangyongyao.com": "https://registry.k8s.io",
+  "ghcrproxy.zhangyongyao.com": "https://ghcr.io",
+  "cloudsmithproxy.zhangyongyao.com": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.e-whisper.com": dockerHub,
+  //"docker-staging.e-whisper.com": dockerHub,
 };
 
 function routeByHosts(host) {
