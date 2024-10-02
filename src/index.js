@@ -26,7 +26,7 @@ const routes = {
   "cloudsmithproxy.zhangyongyao.com": "https://docker.cloudsmith.io",
 
   // staging
-  //"docker-staging.e-whisper.com": dockerHub,
+  "docker-staging.zhangyongyao.com": dockerHub,
 };
 
 function routeByHosts(host) {
